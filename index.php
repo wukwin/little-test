@@ -15,6 +15,7 @@
 	<a href="#">this is a second test</a>
 	<a href="#">commit really need time?</a>
 	<a href="#">final test whih no comment</a>
+	<a href="#">now I know haw to use github-commit</a>
 -    <ul>
 -        <li>1</li>
 -        <li>2</li>
