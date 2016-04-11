@@ -5,10 +5,12 @@
 	<title>upload</title>
 </head>
 <body>
-	<form action="doAction.php" method="post">
+	<form action="doAction.fun.php" method="post" enctype="multipart/form-data">
+	<input type="hidden" name="MAX_FILE_SIZE" value="1777788" />
+
 	please choose your file:
-	<input type="file" name="myfile" />
-	<input type="submit" value="upload your file">
+	<input type="file" name="myfile" accept="image/jpg,image/png,image/gif" />
+	<input type="submit" value="upload your file" />
 	</form>
 </body>
 </html>
