@@ -1,7 +1,7 @@
 <?php 
 
 //$fileInfo=$_FILES['myfile'];
-function uploadFile($fileInfo,$flag=true,$allowExt=array('jpg','png','gif'),$Maxsize=2097152,$path='image/'){
+function uploadFile($fileInfo,$flag=true,$allowExt=array('jpg','png','gif'),$Maxsize=2097152,$path='../'){
 if ($fileInfo['error']>0){
 
 switch ($error) {
