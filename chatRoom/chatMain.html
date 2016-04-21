@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>chat</title>
+	<script src="scriptchat.js"></script>
+	<style type="text/css">
+	.show{
+		border: 1px red solid;
+		height: 300px;
+		overflow-y:scroll; 
+		float: left;
+	}
+	#content{width: 350px;}
+	#online{width: 190px}
+	#last{clear: both;}
+</style>
+</head>
+<body>
+<div>
+	<h3>慕课网聊天室</h3>
+	<div class="show" id="content">11111111111111111111111111111111</div>
+	<!-- <h3>在线人员</h3> -->
+	<div class="show" id="online">2222222222</div>
+</div >
+<div id="faceimg"></div>
+<div id="last"><textarea id="contentput" cols="64" rows="4"></textarea></div>
+<input type="button" id="button1" value="发送"  /><span id="worn">发送内容不能为空</span>
+<span id="meg" class="tip"></span>
+</body>
+</html>
