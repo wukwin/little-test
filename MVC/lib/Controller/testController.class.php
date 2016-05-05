@@ -2,11 +2,20 @@
 
 
 
+//控制器
+
  class testController{
-function show(){
-$testModel= new testModel();
-$data=$testModel->get();
-$testView=new testView();
-$testView->display($data);
- 	}
+
+
+function show()
+{
+	
+
+ 	$testModel=M('test');
+ 	$data=$testModel->get();
+ 	$testView=V('test');
+ 	$testView->display($data);
+
+}
+ 	
  }
